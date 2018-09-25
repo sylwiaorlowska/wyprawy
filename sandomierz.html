@@ -1,0 +1,442 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="jquery.scrollTo.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="blog.css">
+  <link rel="Stylesheet" href="menu.css" type="text/css" />
+
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="fancybox/source/jquery.fancybox.css?v=2.1.7" type="text/css" media="screen" />
+  <script type="text/javascript" src="fancybox/source/jquery.fancybox.pack.js?v=2.1.7"></script>
+
+  <link rel="stylesheet" type="text/css" href="meble.css">
+  <script>
+    $(document).ready(function () {
+      $(".fancybox-button").fancybox({
+        prevEffect: 'none',
+        nextEffect: 'none',
+        closeBtn: false,
+        helpers: {
+          title: { type: 'inside' },
+          buttons: {}
+        }
+      });
+    });
+
+  </script>
+  <style>
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    .widget-column {
+      background-color: #ffffff;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .widget-column1 {
+      background-color: #ffffff;
+      width: 100%;
+      padding: 20px;
+      margin-bottom: 15px;
+      margin-top: 15px;
+
+      background-color: #F0F8FF;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 30px;
+
+    }
+
+    .my-bcgr-clr {
+      background-color: #c0c0c0;
+    }
+
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 10px;
+      background-color: #c0c0c0;
+      padding: 10px;
+      justify-content: space-evenly;
+      width: 100%;
+    }
+
+    .grid-container>div {
+      background-color: #F0F8FF;
+      border: 1px solid black;
+      text-align: center;
+      font-size: 30px;
+    }
+
+    .separator {
+      display: block;
+      position: relative;
+      background: transparent;
+      margin: 0 auto;
+    }
+
+    .s-center {
+      margin: 0, 5px;
+    }
+
+    .s-left {
+      position: relative;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+      color: #2e2828;
+    }
+
+    .s-left::before {
+      position: absolute;
+      content: "";
+      width: 100%;
+      min-width: 75px;
+      height: 1px;
+      background: #dddddd;
+      right: 7px;
+      top: 4px;
+    }
+
+    .s-right {
+      position: relative;
+      display: inline-block;
+      width: 8px;
+      height: 8px;
+    }
+
+    .s-right::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      min-width: 75px;
+      height: 1px;
+      background: #dddddd;
+      left: 7px;
+      top: 4px;
+    }
+
+    * .s-right::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      min-width: 75px;
+      height: 1px;
+      background: #dddddd;
+      left: 7px;
+      top: 4px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #ccc;
+      font-family: arial, verdana, tahoma;
+    }
+    h1 {
+      text-align: center;
+    }
+    .centerText {
+      text-align: center;
+    }
+  </style>
+  <title> Cudze chwalicie ..</title>
+</head>
+
+<body>
+
+  <div class="header">
+
+  </div>
+
+  <div class="content">
+
+    <div class="container">
+
+      <div class="main">
+
+        <div>
+          <h1>
+            Cudze chwalicie swego nie znacie......
+          </h1>
+        </div>
+
+        <div class="centerText">
+          <span class="separator">
+            <span class="s-left"></span>
+            <span class="s-center">
+              <i class="fa fa-circle-o fa-lg"></i>
+            </span>
+            <span class="s-right"></span>
+          </span>
+        </div>
+        <br>
+
+        <div class="row my-bcgr-clr">
+              <div class= "col-xs-4 col-md-4">
+                <div class="widget-column1">
+                  <div>
+                  <img src="images/topor.jpg" width="342" height="456" sizes="(max-width: 342) 100vw, 342px " class="" />
+                  <div class="caption">
+                    <p style="font-family:Mistral;">Krzyżtopór
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              </div>
+
+              <div class="col-xs-4 col-md-4">
+                <div class="widget-column1">
+                  <img src="images/brama.jpg" width="342" height="456" sizes="(max-width: 342) 100vw, 342px " class="" />
+                  <div class="caption">
+                      <p style="font-family:Mistral;">Sandomierz
+                    </p>
+
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="col-xs-4 col-md-4">
+                <div class="widget-column1">
+                  <img src="images/kazik.jpg" width="342" height="456" sizes="(max-width: 342) 100vw, 342px " class="" />
+                  <div class="caption">
+                      <p style="font-family:mistral;">Kazimierz Dolny
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+
+        <div class="row grid-list">
+          <div class="col-md-4 col-xs-4 widget-column text-center">
+            <div class="caption" id="projektycrt">
+              <h4>
+                <p style="font-family:Mistral;">Szydłów</p>
+              </h4>
+              <div>
+                <span class="separator">
+                  <span class="s-left"></span>
+                  <span class="s-center">
+                    <i class="fa fa-circle-o fa-lg"></i>
+                  </span>
+                  <span class="s-right"></span>
+                </span>
+              </div>
+
+              Szydłów, nazywany czasem polskim Carcassonne, to pięknie położona, niewielka miejscowość niemal w całości
+              otoczona
+              murem obronnym, będącym pozostałością po zamku wzniesionym w XIV wieku na polecenie Kazimierza Wielkiego.
+              Szydłów
+              był jednym z miast królewskich, a jego najlepszy okres przypada na XV wiek,
+              kiedy to nazywany był Wielkim Szydłowem. Dziś Szydłów mimo, iż nie pełni już ważnej roli politycznej,
+              obronnej czy handlowej nadal pozostaje niezwykle ciekawym miejscem.
+
+            </div>
+          </div>
+
+          <div id="wstep" class="col-md-8 col-xs-8 widget-column">
+            <div class="thumbnail">
+
+              <img src="images/szydlow.jpg" width="342" height="480" sizes="(max-width: 342) 100vw, 342px " class="" />
+              <div class="caption">
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row grid-list">
+          <div class="col-md-8 col-xs-8 widget-column">
+            <div class="thumbnail">
+
+              <img src="images/bizon.jpg" width="342" height="480" sizes="(max-width: 342) 100vw, 342px " class="" />
+              <div class="caption">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="col-md-4 col-xs-4 widget-column text-center">
+            <div class="thumbnail">
+
+              <div class="caption" id="omniecrt">
+                <h4>
+                    <p style="font-family:Mistral;">Kurozwęki
+                    </p>
+                </h4>
+                <div>
+                  <span class="separator">
+                    <span class="s-left"></span>
+                    <span class="s-center">
+                      <i class="fa fa-circle-o fa-lg"></i>
+                    </span>
+                    <span class="s-right"></span>
+                  </span>
+                </div>
+
+                Kurozwęki to malowniczo położony zakątek, będący znakomitym miejscem zarówno do spokojnych spacerów,
+                jak i do przeżycia wielu ciekawych przygód.
+                Obecny właściciel po odkupieniu rodzinnego majątku z rąk państwa, sprowadził do Kurozwęk stado bizonów
+                i postanowił stworzyć
+                tu wiele wyjątkowych atrakcji dla turystów.
+                Pałac i jego Skarby udostępnione są do zwiedzania z przewodnikiem,
+                który zapoznaje turystów z historią pałacu oraz zamieszkujących go rodów, a także z aktualnymi
+                ciekawostkami. Zwiedzanie obejmuje pierwsze piętro pałacu -
+                salę balową, salony, taras widokowy, krużganki i XVIII w. kaplicę, jak również dziedziniec i
+                muzeum-„Skarby i pamiątki rodu Popielów”.
+
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row grid-list">
+          <div class="col-md-4 col-xs-4 widget-column text-center">
+            <div class="caption">
+              <h4>
+                  <p style="font-family:Mistral;">Baranów Sandomierski
+                    </p>
+                  </h4>
+
+              <div>
+                <span class="separator">
+                  <span class="s-left"></span>
+                  <span class="s-center">
+                    <i class="fa fa-circle-o fa-lg"></i>
+                  </span>
+                  <span class="s-right"></span>
+                </span>
+              </div>
+
+              Zamek został wzniesiony pod koniec XVIw. w miejscu średniowiecznego, obronnego dworu rycerskiego. W XVw.
+              dwór baranowski należał do szlacheckiej
+              rodziny Baranowskich. Na przełomie XV i XVI wieku właścicielem Baranowa został wielkopolski ród Górków. W
+              1569 roku Stanisław Górka sprzedał dobra baranowskie
+              Rafałowi Leszczyńskiemu.Wspaniałą architekturę,
+              ukształtowaną na wzór królewskiego Wawelu w Krakowie, rezydencja zwana "Małym Wawelem" zawdzięcza
+              najprawdopodobniej
+              włoskiemu architektowi i rzeźbiarzowi Santi Gucci'emu. Ostatnim właścicielem zamku z rodu Leszczyńskich
+              był Rafał X, którego syn - Stanisław Leszczyński, był królem Polski.
+
+            </div>
+          </div>
+
+          <div class="col-md-8 col-xs-8 widget-column">
+            <div class="thumbnail">
+
+              <img src="images/baranow.jpg" width="342" height="480" sizes="(max-width: 342) 100vw, 342px " class="" />
+              <div class="caption">
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+        <div class="row grid-list">
+
+          <div class="col-md-12 col-xs-12 widget-column">
+
+            <div class="row">
+              <div class="col-md-4 col-xs-4 widget-column">
+
+                <a class="fancybox-button" rel="fancybox-button" href="images/30.jpg">
+                  <img class="center-block" src="images/30small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/42.jpg">
+                  <img src="images/42small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="text-center col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/40.jpg">
+                  <img src="images/40small.jpg" alt="" />
+                </a>
+              </div>
+
+            </div>
+
+            <div class="row">
+              <div class="col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/43.jpg">
+                  <img class="center-block" src="images/43small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/41.jpg">
+                  <img src="images/41small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="text-center col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/39.jpg">
+                  <img src="images/39small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/38.jpg">
+                  <img src="images/38small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/31.jpg">
+                  <img src="images/31small.jpg" alt="" />
+                </a>
+              </div>
+
+              <div class="col-md-4 col-xs-4 widget-column">
+                <a class="fancybox-button" rel="fancybox-button" href="images/50.jpg">
+                  <img src="images/50small.jpg" alt="" />
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
